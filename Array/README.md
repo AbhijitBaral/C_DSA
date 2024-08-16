@@ -18,8 +18,8 @@ Function that allocates memory and defines the array elements for the daughter m
 * Insertion of an array element  
 ```C
     void insertArrElmnt(char *dataStrctrDscrpn ,int insertPsn);
-```  
- 
+```
+
     Adds an element at a specific of the array  
 
 * Deletion of an array element
