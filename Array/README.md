@@ -20,14 +20,14 @@ Function that allocates memory and defines the array elements for the daughter m
     void insertArrElmnt(char *dataStrctrDscrpn ,int insertPsn);
 ```
 
-    Adds an element at a specific of the array  
+Adds an element at a specific of the array  
 
 * Deletion of an array element
 ```C
     void deleteArrElmnt(char *dataStrctrDscrpn, int delPsn);
 ```
  
-    will use a function that could crawl through a data structure and free each dynamically allocated memory block associated with it.  
+ will use a function that could crawl through a data structure and free each dynamically allocated memory block associated with it.  
     This will be used to delete an element at a specific position and shift the remaining elements leftwards.  
 
 * Searching  
@@ -35,34 +35,34 @@ Function that allocates memory and defines the array elements for the daughter m
     int searchArr(char *dataStrctrDscrpn, );
 ```
 
-    Scans through the array, as well as through the data structure of the elements, looking for a specific item, and then returns the index of the element the item belongs to.  
+Scans through the array, as well as through the data structure of the elements, looking for a specific item, and then returns the index of the element the item belongs to.  
 
 * Sorting
 ```C
     void *sortArr(char *dataStrctrDscrpn,char* elementLocnInDS);
 ```
 
-    Sorts the array on the basis of an element that is numerically comparable.  
+Sorts the array on the basis of an element that is numerically comparable.  
 
 * Merging
 ```C    
     void *mergeArr(void *Arr1, void *Arr2);
 ```
  
-    Combines two arrays into one.
+Combines two arrays into one.
 
 * Reversing
 ```C
     void *reverseArr(void *Arr);
 ```
  
-    Reverses the order of elements of an array.  
+Reverses the order of elements of an array.  
 
 * Rotating
 ```C
     void *rotateArr(void *Arr);
 ```
  
-    Rotatates the array elements to the right or left by a certain number of positions
+Rotatates the array elements to the right or left by a certain number of positions
 
 
