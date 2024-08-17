@@ -1,4 +1,4 @@
-# A " C " Library that supports convenient implementation if common data structures and operations on them like:
+# A " C " Library that supports convenient implementation of common data structures and operations on them like:
 
 * Stack--+  
          |-- Push  
